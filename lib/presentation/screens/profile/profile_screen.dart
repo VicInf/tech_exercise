@@ -214,7 +214,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
                   ]),
-                  infoRow(Icons.location_on_outlined, [
+                  infoRow(Icons.location_on, [
                     TextSpan(
                       text: 'Lived in ',
                       style: TextStyle(color: Colors.white54, fontSize: 16),
@@ -224,7 +224,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
                   ]),
-                  infoRow(Icons.language, [
+                  infoRow(Icons.translate_outlined, [
                     TextSpan(
                       text: 'Speaks ',
                       style: TextStyle(color: Colors.white54, fontSize: 16),
@@ -234,7 +234,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
                   ]),
-                  infoRow(Icons.sports_soccer, [
+                  infoRow(Icons.shield_outlined, [
                     TextSpan(
                       text: 'Supports ',
                       style: TextStyle(color: Colors.white54, fontSize: 16),
@@ -244,7 +244,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
                   ]),
-                  infoRow(Icons.star, [
+                  infoRow(Icons.directions_run_outlined, [
                     TextSpan(
                       text: 'Admires ',
                       style: TextStyle(color: Colors.white54, fontSize: 16),

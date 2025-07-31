@@ -31,10 +31,22 @@ class _MainScreenState extends State<MainScreen> {
       context,
     );
     final items = [
-      BottomNavigationBarItem(icon: Icon(Icons.explore), label: 'Explore'),
-      BottomNavigationBarItem(icon: Icon(Icons.sports_soccer), label: 'Fields'),
-      BottomNavigationBarItem(icon: Icon(Icons.message), label: 'Messages'),
-      BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+      BottomNavigationBarItem(
+        icon: Icon(Icons.search, size: 30),
+        label: 'Explore',
+      ),
+      BottomNavigationBarItem(
+        icon: Icon(Icons.stadium_outlined, size: 30),
+        label: 'Fields',
+      ),
+      BottomNavigationBarItem(
+        icon: Icon(Icons.chat_bubble_outline, size: 30),
+        label: 'Messages',
+      ),
+      BottomNavigationBarItem(
+        icon: Icon(Icons.account_circle_outlined, size: 30),
+        label: 'Profile',
+      ),
     ];
 
     return PopScope(
