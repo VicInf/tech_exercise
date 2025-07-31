@@ -1,16 +1,25 @@
 # tech_exercise
 
-A new Flutter project.
+A Flutter project built with Flutter 3.32.6.
 
-## Getting Started
+🚀 Installation
+Prerequisites
+Flutter 3.32.6
 
-This project is a starting point for a Flutter application.
+Dart SDK (usually comes with Flutter)
 
-A few resources to get you started if this is your first Flutter project:
+Git (to clone the repository)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Steps
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1- Clone the repository: git clone https://github.com/VicInf/tech_exercise.git/n
+
+2- Go to the project folder: cd tech_exercise
+
+3- Get dependencies: flutter pub get\n
+
+4- (Optional) Set up a device or emulator, make sure you have an emulator running, or connect a physical device.
+
+5- Run the app: flutter run
+
+Because i use FVM it should grab flutter version 3.32.6 for all these 
