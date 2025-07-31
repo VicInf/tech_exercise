@@ -3,20 +3,28 @@ import 'package:flutter/material.dart';
 class KudosIcons extends StatelessWidget {
   final double size;
   final List<Color> colors;
+  final List<IconData>? icons;
 
-  const KudosIcons({super.key, this.size = 28, this.colors = const []});
+  const KudosIcons({
+    super.key,
+    this.size = 28,
+    this.colors = const [],
+    this.icons,
+  });
 
   @override
   Widget build(BuildContext context) {
+    final iconList = icons ?? List.filled(colors.length, Icons.emoji_events);
+
     return SizedBox(
-      width: size * 2.2,
+      width: size,
       height: size,
       child: Stack(
         clipBehavior: Clip.none,
         children: [
           for (int i = colors.length - 1; i >= 0; i--)
             Positioned(
-              left: i * (size / 2),
+              left: i * (size / 1.75),
               child: Container(
                 width: size,
                 height: size,
@@ -25,11 +33,7 @@ class KudosIcons extends StatelessWidget {
                   border: Border.all(color: Colors.grey[700]!, width: 2),
                   color: Colors.black,
                 ),
-                child: Icon(
-                  Icons.emoji_events,
-                  color: colors[i],
-                  size: size * 0.57,
-                ),
+                child: Icon(iconList[i], color: colors[i], size: size * 0.6),
               ),
             ),
         ],
